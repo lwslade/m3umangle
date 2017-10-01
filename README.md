@@ -17,8 +17,6 @@ This script was written with the GNU version of `sed`. Please install the GNU co
 
 Run the script, with an existing m3u playlist file as the first argument:
 
-`./walkman.sh foo.m3u`
+`./m3umangle.sh foo.m3u`
 
-Optionally, specify a different destination (useful if your media player mounts the SD card under a different path from its internal storage, for example):
-
-`./walkman.sh foo.m3u /Volumes/SDCARD/`
+This will copy the files specified in `foo.m3u` to the destination path, while preserving the folder hierarchy present at the source. This means that the music files will still be arranged in folders by artist, then album in most cases. A new playlist named `wm-foo.m3u` will be saved in the directory where the script is run. This file can be copied to wherever your media player prefers to keep playlist files.
