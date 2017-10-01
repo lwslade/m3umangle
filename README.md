@@ -9,9 +9,9 @@ Before using this script, edit the following variables:
 * `musicdir` should be the path to your music library.
 * `walkman` should be the destination path - that is, the root of your media player's filesystem. Music files will be copied to this path.
 
-### MacOS Notes
+### Mac OS Notes
 
-This script was written with the GNU version of `sed`. Please install the GNU core utilities with [Homebrew](https://brew.sh), or unexpected behaviour may occur. If you haven't installed the core utilities with the default name, you'll need to replace `sed` with `gsed` in this script.
+This script was written with the GNU version of `sed`. Please install the GNU core utilities with [Homebrew](https://brew.sh), or unexpected behaviour may occur. If you haven't installed the core utilities with their default name, you'll need to replace `sed` with `gsed` in this script.
 
 # Usage
 
